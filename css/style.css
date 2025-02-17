@@ -294,9 +294,9 @@ article:last-of-type {
   padding-left: 65px;
 }
 
-.articulos>.contenedor::after,
-.pie-pagina>.contenedor::after {
-  content: '';
+.articulos > .contenedor::after,
+.pie-pagina > .contenedor::after {
+  content: "";
   font-size: 0;
   height: 1px;
   width: 100%;
@@ -330,7 +330,7 @@ h2 {
 }
 
 h2::after {
-  content: '';
+  content: "";
   font-size: 0;
   height: 2px;
   width: 38px;
@@ -357,7 +357,7 @@ h2::after {
 }
 
 .pie-pagina h3::after {
-  content: '';
+  content: "";
   font-size: 0;
   width: 90%;
   height: 1px;
@@ -407,54 +407,54 @@ h2::after {
 /* Pantallas menores a 1200px */
 @media (max-width: 1199px) {
   .contenedor {
-      width: 90%;
+    width: 90%;
   }
 
   .nav-principal li {
-      margin-left: 50px;
+    margin-left: 50px;
   }
 }
 
 /* Pantallas menores a 992px (Tablets y pantallas medianas) */
 @media (max-width: 991px) {
   .nav-principal li {
-      margin-left: 30px;
+    margin-left: 30px;
   }
 
   .banner {
-      height: 450px;
-      padding-top: 130px;
-      background-size: cover;
+    height: 450px;
+    padding-top: 130px;
+    background-size: cover;
   }
 
   .bloque-banner {
-      font-size: 45px;
-      padding: 0 20px;
+    font-size: 45px;
+    padding: 0 20px;
   }
 
   .subtitulo {
-      font-size: 18px;
+    font-size: 18px;
   }
 
   .ver-mas {
-      padding: 15px 40px;
-      font-size: 14px;
+    padding: 15px 40px;
+    font-size: 14px;
   }
 
   .articulos {
-      background: #ffffff;
-      padding: 50px 20px;
+    background: #ffffff;
+    padding: 50px 20px;
   }
 
   article {
-      width: 100%;
-      padding: 30px 0;
-      text-align: center;
+    width: 100%;
+    padding: 30px 0;
+    text-align: center;
   }
 
   .pie-pagina .col-pie {
-      width: 50%;
-      margin-bottom: 20px;
+    width: 50%;
+    margin-bottom: 20px;
   }
 }
 
@@ -462,50 +462,50 @@ h2::after {
 @media (max-width: 768px) {
   /* 🔹 Estilos para el encabezado */
   .encab-pag {
-      position: fixed;
-      width: 100%;
-      height: 66px;
-      background-color: rgba(0, 0, 0, 0.9);
-      text-align: center;
-      padding: 10px 0;
-      z-index: 1000;
+    position: fixed;
+    width: 100%;
+    height: 66px;
+    background-color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    padding: 10px 0;
+    z-index: 1000;
   }
 
   .encab-pag .logo {
-      float: none;
-      padding: 10px 0;
+    float: none;
+    padding: 10px 0;
   }
 
   /* 🔹 Oculta el menú por defecto en móviles */
   .nav-principal {
-      display: none;
-      flex-direction: column;
-      position: absolute;
-      top: 66px; /* Justo debajo del header */
-      left: 0;
-      width: 100%;
-      background-color: rgba(0, 0, 0, 0.9);
-      text-align: center;
-      padding: 10px 0;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 66px; /* Justo debajo del header */
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    padding: 10px 0;
   }
 
   .nav-principal li {
-      width: 100%;
+    width: 100%;
   }
 
   .nav-principal li a {
-      display: block;
-      padding: 15px;
-      width: 100%;
-      color: white;
-      text-decoration: none;
+    display: block;
+    padding: 15px;
+    width: 100%;
+    color: white;
+    text-decoration: none;
   }
 
-  article:nth-of-type(1){
+  article:nth-of-type(1) {
     margin-left: 26px;
   }
 
-  article:nth-of-type(2){
+  article:nth-of-type(2) {
     display: none;
   }
 }
